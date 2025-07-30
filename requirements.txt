@@ -1,0 +1,24 @@
+# FastAPI + Uvicorn
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# ORM
+sqlalchemy==2.0.30
+asyncpg==0.29.0  # Cliente PostgreSQL (opcional si usás async)
+psycopg2-binary==2.9.9  # Cliente PostgreSQL (si usás modo sync)
+
+# Autenticación y seguridad
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+
+# Migraciones
+alembic==1.13.1
+
+# Validación de datos
+pydantic==2.7.3
+email-validator==2.1.1
+
+# Utilidades
+python-multipart==0.0.9  # Para recibir formularios, imágenes, etc.
+

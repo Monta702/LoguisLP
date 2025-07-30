@@ -1,0 +1,39 @@
+# Entorno virtual
+venv/
+.env/
+.env.*
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de log
+*.log
+
+# Archivos de base de datos
+*.sqlite3
+
+# Archivos de configuración de VSCode
+.vscode/
+
+# Docker
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
+
+# Node.js (si tenés frontend en React, por ejemplo)
+node_modules/
+dist/
+build/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de test y cobertura
+.coverage
+htmlcov/
+pytest_cache/
